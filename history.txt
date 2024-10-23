@@ -1,0 +1,51 @@
+    1  man user
+    2  grep user
+    3  appres user
+    4  apopes user
+    5  apropos user
+    6  whoami
+    7  adduser fede
+    8  sudo adduser fede
+    9  sudo su
+   10  su
+   11  sudo apt update
+   12  sudo adduser fede
+   13  pwd
+   14  ls
+   15  sudo passwd vboxuser
+   16  lsblk
+   17  sudo fdisk /dev/sdb
+   18  [200~sudo apt install lvm2 
+   19  sudo apt install lvm2 
+   20  sudo apt install lvm2
+   21  sudo apt install lvm
+   22  sudo apt install lvm2
+   23  [200~sudo apt update
+   24  sudo apt update
+   25  lsblk
+   26  sudo apt install lvm2
+   27  sudo fdisk /dev/sdb
+   28  sudo apt install lvm2
+   29  sudo fdisk /dev/sdb
+   30  lsblk
+   31  sudo fdisk /dev/sdb
+   32  sudo pvcreate /dev/sdb1 /dev/sdc1 /dev/sdd1
+   33  lsblk
+   34  sudo pvcreate /dev/sdb1 /dev/sdb2 /dev/sdb3
+   35  sudo vgcreate datos /dev/sdb1 /dev/sdb2 /dev/sdb3
+   36  sudo lvcreate -L 1G -n www datos
+   37  sudo lvcreate -L 4G -n salvas datos
+   38  sudo lvresize -L 2G /dev/datos/www
+   39  sudo resize2fs /dev/datos/www
+   40  history > history.txt
+   41  cat history.txt 
+   42  ssh-keygen
+   43  ls
+   44  cat .ssh/
+   45  cat .ssh/id_rsa.pub 
+   46  git@github.com:FedeRobledo/arq-software.git
+   47  git clone git@github.com:FedeRobledo/arq-software.git
+   48  sudo apt install git
+   49  git clone git@github.com:FedeRobledo/arq-software.git
+   50  history > ./arq-software/
+   51  history > ./arq-software/history.txt
