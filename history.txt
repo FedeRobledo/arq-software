@@ -49,3 +49,11 @@
    49  git clone git@github.com:FedeRobledo/arq-software.git
    50  history > ./arq-software/
    51  history > ./arq-software/history.txt
+   52  cd arq-software/
+   53  git status
+   54  git add .
+   55  git commit -m "ADD: historial completo"
+   56  git push
+   57  [200~sudo nano /etc/fstab
+   58  sudo nano /etc/fstab
+   59  history > ./arq-software/history.txt
