@@ -57,3 +57,23 @@
    57  [200~sudo nano /etc/fstab
    58  sudo nano /etc/fstab
    59  history > ./arq-software/history.txt
+   60  cd arq-software/
+   61  git add .
+   62  git commit -m "ADD: mas cambios"
+   63  git push
+   64  cd /mnt/
+   65  ls
+   66  sudo mkfs.ext4 /dev/vg0/lv0
+   67  sudo mkfs.ext4 /dev/datos/salvas 
+   68  sudo mkfs.ext4 /dev/datos/www 
+   69  sudo mkdir /mnt/WWW
+   70  [200~sudo mount /dev/vg0/ld0 /mnt/WWW
+   71  sudo mount /dev/datos/ /mnt/WWW
+   72  sudo mount /dev/datos/www /mnt/WWW
+   73  sudo mkdir /mnt/salva
+   74  sudo mount /dev/datos/ /mnt/salva/
+   75  sudo mount /dev/datos/salvas /mnt/salva/
+   76  sudo vgdisplay datos
+   77  sudo lvresize -L 2G /dev/datos/www
+   78  cd ~
+   79  history > ./arq-software/history.txt
